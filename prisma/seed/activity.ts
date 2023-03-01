@@ -313,6 +313,38 @@ export const ACTIVITY = [
     notes:
       "Basic class: Passing underhook DLR. Adv class: Berimbolo counter using the stepover bellydown ankle lock",
   },
+  {
+    id: 45,
+    activity: "No Gi",
+    date: "2/7/2022",
+    duration: 1,
+    notes:
+      "I don't remember.. I took Gi the class after too but got sick during class so I left early.",
+  },
+  {
+    id: 46,
+    activity: "No Gi",
+    date: "2/8/2022",
+    duration: 1,
+    notes:
+      "I don't remember",
+  },
+  {
+    id: 47,
+    activity: "No Gi",
+    date: "2/9/2022",
+    duration: 1,
+    notes:
+      "Passing butterfly half",
+  },
+  {
+    id: 48,
+    activity: "Gi BJJ",
+    date: "2/9/2022",
+    duration: 1,
+    notes:
+      "Spider guard retention. spider guard to collar sleeve omoplate. if they block collar/sleeve with tight elbow connection then attack with tomoe nage.",
+  },
 ];
 
 export default ACTIVITY;

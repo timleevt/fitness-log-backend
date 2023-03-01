@@ -11,7 +11,6 @@ const prisma = new PrismaClient();
 // };
 
 const addGymToDB = async (data: any) => {
-  console.log(data);
   const d = await prisma.gym.create({
     // data: {
     //   name: "Kaizen MMA Fairfaxzz",
@@ -22,7 +21,6 @@ const addGymToDB = async (data: any) => {
     // },
     data
   });
-  console.log(d);
 };
 
 export default addGymToDB;

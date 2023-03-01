@@ -2,7 +2,7 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 async function main() {
-  const d = await prisma.gym.create({
+  await prisma.gym.create({
     data: {
       id: 1,
       name: "Kaizen MMA Fairfax",
@@ -12,7 +12,6 @@ async function main() {
       website: "https://kzmma.com/",
     },
   });
-  console.log(d);
 }
 
 main()
